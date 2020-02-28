@@ -52,6 +52,22 @@ body {
     text-align: center;
 }
 
+.link--red:hover {
+    color: red;
+}
+
+.link--blue:hover {
+    color: royalblue;
+}
+
+.link--yellow:hover {
+    color: yellow;
+}
+
+.link--green:hover {
+    color: green
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -60,7 +76,7 @@ body {
 }
 
 .main__heading {
-    padding-top: 90px;
+    padding-top: 80px;
     width: 100%;
     max-width: 333px;
     display: flex;
@@ -78,7 +94,93 @@ body {
 .main__heading--h1-heart {
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
-    line-height: 75px;
+    font-size: 40px;
+    line-height: 85px;
     color: #FFFFFF;
+}
+
+.main__text {
+    width: 466px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F8F8F8;
+    margin: 20px;
+}
+
+.main__text_p1 {
+    margin-bottom: 0px;
+}
+
+.main__text_p2 {
+    margin-top: 0px;
+}
+
+.main__button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main__button-1 {
+    width: 186px;
+    height: 39px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    background: #878787;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F8F8F8;
+}
+
+.main__button-1:hover {
+    background-color: transparent;
+}
+
+.block_items {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    width: 224px;
+    height: 278px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 70px;
+    text-align: center;
+}
+
+.block__symbol {
+    padding-top: 32px;
+    padding-bottom: 0px;
+}
+
+.block__heading {
+    padding-top: 27px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0px;
+}
+
+.block__text {
+    width: 170px;
+    height: 74px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin: 16px 0px 20px 0px;
 }
